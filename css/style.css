@@ -1,0 +1,11 @@
+.wrap_mess_block {
+	width: 80%;
+	margin: auto;
+	/*border-left: 1px solid black;*/
+	border-bottom: 1px solid black;
+}
+
+.my_mess {
+	background-color: #777;
+}
+

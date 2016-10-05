@@ -1,10 +1,18 @@
 <?php
 	header("Content-Type: text/html; charset=UTF-8");
 	function conect_DB() {
-		$host = 'localhost'; // адрес сервера 
-		$database = 'chat'; // имя базы данных
-		$user = 'root'; // имя пользователя
+
+		$host = 'localhost'; 
+		$database = 'chat'; 
+		$user = 'root'; 
+		$password = '27330t11'; 
+
+		
+/*		$host = 'mysql.zzz.com.ua'; // адрес сервера 
+		$user = 'swsweb'; // і'мя користувача
 		$password = '27330t11'; // пароль
+		$database = 'sws_web_adr_com_ua'; //і'мя имя бази даних
+*/
 		global $link;
 		$link = mysqli_connect($host, $user, $password, $database) 
 		    or die("Ошибка " . mysqli_error($link));
@@ -83,5 +91,26 @@
 	function user_cookie($log, $pass) {
 		setcookie("user_login", $log);
 		setcookie("user_pass", $pass);
+	}
+
+	$all_messages = [];
+	$count_message;
+
+	function getMessages() {
+		global $link;
+		global $all_messages; 
+		global $count_message; 
+		global $option_message; 
+		$query_select_messages = "SELECT message, user_name, time_send FROM messages ORDER BY time_send DESC ";
+		$result_select_messages = mysqli_query($link, $query_select_messages) or die("Ошибка " . mysqli_error($link));
+		$count_message = mysqli_num_rows($result_select_messages);
+
+		for($i = 0; $i < $count_message; $i++){
+
+			$option_message = mysqli_fetch_assoc($result_select_messages);
+			array_push($all_messages, $option_message);
+	
+			/*echo $option_message['user_name'].": ".$option_message['message']." // ".$option_message['time_send']."<br>"; */
+	 	}
 	}
 ?>

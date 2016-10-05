@@ -6,6 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Chat</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <?php
@@ -63,6 +64,7 @@
 	endif;
 ?>
 
-
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
