@@ -4,7 +4,7 @@
 		$host = 'localhost'; // адрес сервера 
 		$database = 'chat'; // имя базы данных
 		$user = 'root'; // имя пользователя
-		$password = ''; // пароль
+		$password = '27330t11'; // пароль
 		global $link;
 		$link = mysqli_connect($host, $user, $password, $database) 
 		    or die("Ошибка " . mysqli_error($link));

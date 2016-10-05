@@ -35,7 +35,7 @@
 
 <?php 
 	if(isset($_COOKIE['user_login']) && isset($_COOKIE['user_pass'])):
-	require_once('main_page.php')
+	require_once('main_page.php');
 ?>
 
 
