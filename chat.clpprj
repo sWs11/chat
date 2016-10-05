@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="D:\xampp\htdocs\chat\chat.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/chat/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/chat/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="D:\xampp\htdocs\chat\functions.php"/>
+		<file name="D:\xampp\htdocs\chat\index.php"/>
+		<file name="D:\xampp\htdocs\chat\.htaccess"/>
+		<file name="D:\xampp\htdocs\chat\main_page.php"/>
+	</lastopfiles>
+	<errors version="5.3">
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<filescache>
+		<file name="D:\xampp\htdocs\chat\main_page.php" crc="1475622590"/>
+		<file name="D:\xampp\htdocs\chat\index.php" crc="1475622439"/>
+		<file name="D:\xampp\htdocs\chat\functions.php" crc="1475621431"/>
+		<file name="D:\xampp\htdocs\chat\.htaccess" crc="1475613148"/>
+	</filescache>
+</project>

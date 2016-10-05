@@ -1,0 +1,20 @@
+<codestructure version="5.8">
+<phptree>
+<treenode node="functions.php;PHP:PHP Include;D:\xampp\htdocs\chat\index.php;f15;1;28;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="main_page.php;PHP:PHP Include;D:\xampp\htdocs\chat\index.php;f15;37;28;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="close_DB;PHP:Function Name;D:\xampp\htdocs\chat\functions.php;f1;14;2;17;;;;vpos;;v;;r;;d21,14;;b0,0;;m">
+</treenode>
+<treenode node="conect_DB;PHP:Function Name;D:\xampp\htdocs\chat\functions.php;f1;2;2;12;;;;vpos;;v;;r;;d22,2;;b0,0;;m">
+</treenode>
+<treenode node="login;PHP:Function Name;D:\xampp\htdocs\chat\functions.php;f1;49;2;75;;;;vpos;;v;;r;;d18,49;;b0,0;;m">
+</treenode>
+<treenode node="logout;PHP:Function Name;D:\xampp\htdocs\chat\functions.php;f1;77;2;80;;;;vpos;;v;;r;;d19,77;;b0,0;;m">
+</treenode>
+<treenode node="registration;PHP:Function Name;D:\xampp\htdocs\chat\functions.php;f1;20;2;47;;;;vpos;;v;;r;;d25,20;;b0,0;;m">
+</treenode>
+<treenode node="user_cookie;PHP:Function Name;D:\xampp\htdocs\chat\functions.php;f1;82;2;85;;;;vpos;;v;;r;;d35,82;;b0,0;;mlog;;ppass;;p">
+</treenode>
+</phptree>
+</codestructure>
